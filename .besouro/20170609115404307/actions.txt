@@ -75,3 +75,6 @@ UnitTestSessionAction 1497003254409 TestPlanetExplorer.java OK
 RefactoringAction 1497003262788 TestPlanetExplorer.java ADD void test_forth_east()/2 METHOD
 RefactoringAction 1497003265801 TestPlanetExplorer.java RENAME test_forth_east()/2=>void test_forth_south() METHOD
 EditAction 1497003295336 TestPlanetExplorer.java 1465 8 20 7
+UnitTestCaseAction 1497003303498 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003303500 TestPlanetExplorer.java FAIL
+EditAction 1497003315550 TestPlanetExplorer.java 1465 8 20 7
