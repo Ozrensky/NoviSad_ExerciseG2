@@ -1,0 +1,8 @@
+FileOpenedAction 1497002044873 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1497002092783 PlanetExplorerException.java 61 0 0 0
+FileOpenedAction 1497002097171 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1497002119281 TestPlanetExplorer.java ADD void test_rotate FIELD
+RefactoringAction 1497002121295 TestPlanetExplorer.java RENAME test_rotate=>void test_rotate_rigth FIELD
+RefactoringAction 1497002122321 TestPlanetExplorer.java RENAME test_rotate_rigth=>void test_rotate_right FIELD
+RefactoringAction 1497002123336 TestPlanetExplorer.java RENAME test_rotate_right=>void test_rotate_right() METHOD
+EditAction 1497002213223 TestPlanetExplorer.java 339 2 2 1
