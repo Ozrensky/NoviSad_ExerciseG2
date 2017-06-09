@@ -146,3 +146,6 @@ RefactoringAction 1497004103774 TestPlanetExplorer.java RENAME test_boundaries_w
 RefactoringAction 1497004105284 TestPlanetExplorer.java RENAME test_boundaries_fort()=>void test_boundaries_forth_() METHOD
 RefactoringAction 1497004106804 TestPlanetExplorer.java RENAME test_boundaries_forth_()=>void test_boundaries_forth_west() METHOD
 EditAction 1497004130844 TestPlanetExplorer.java 2972 16 43 15
+UnitTestCaseAction 1497004138978 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004138980 TestPlanetExplorer.java FAIL
+EditAction 1497004167963 PlanetExplorer.java 2865 5 9 0

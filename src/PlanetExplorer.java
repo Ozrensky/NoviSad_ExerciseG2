@@ -91,7 +91,11 @@ public class PlanetExplorer {
 					roverX++; 
 				break;
 			case "s": roverY--; break;
-			case "w": roverX--; break;
+			case "w": 
+				if (roverX == 0)
+					roverX = x - 1;
+				else
+					roverX--; break;
 		}
 	}
 	
