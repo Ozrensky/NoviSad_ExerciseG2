@@ -92,7 +92,12 @@ public class PlanetExplorer {
 	
 	public void moveBack(){
 		switch(direction){
-		case "n": roverY--; break;
+		case "n": 
+			if (roverY == 0)
+				roverY = y - 1;
+			else
+				roverY--; 
+			break;
 		case "e": roverX--; break;
 		case "s": roverY++; break;
 		case "w": roverX++; break;
