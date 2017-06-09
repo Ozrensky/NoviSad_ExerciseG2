@@ -89,7 +89,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaris_north(){
+	public void test_boundaries_north(){
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("ff");
 		

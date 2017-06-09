@@ -108,3 +108,7 @@ EditAction 1497003590037 TestPlanetExplorer.java 2222 12 32 11
 UnitTestCaseAction 1497003598196 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497003598198 TestPlanetExplorer.java FAIL
 EditAction 1497003655059 PlanetExplorer.java 2632 5 9 0
+UnitTestCaseAction 1497003678666 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003678667 TestPlanetExplorer.java OK
+RefactoringAction 1497003687650 TestPlanetExplorer.java RENAME test_boundaris_north()=>void test_boundaries_north() METHOD
+EditAction 1497003688908 TestPlanetExplorer.java 2223 12 32 11
