@@ -49,9 +49,9 @@ public class PlanetExplorer {
 			for (int i = 0; i < nizPrepreka.length; i++){
 				char karakter = nizPrepreka[i];
 				if (Character.isDigit(karakter)){
-					System.out.println(karakter);
 					if (counter == 0){
 						preprekaX = Character.getNumericValue(karakter);
+						System.out.println(karakter);
 						counter++;
 					} else if (counter == 1){
 						counter = 0;
