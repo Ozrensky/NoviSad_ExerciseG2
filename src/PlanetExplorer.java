@@ -123,7 +123,12 @@ public class PlanetExplorer {
 				roverY = 0;
 			else
 				roverY++; break;
-		case "w": roverX++; break;
+		case "w": 
+			if (roverX == x - 1)
+				roverX = 0;
+			else
+				roverX++; 
+			break;
 	}
 }
 }
