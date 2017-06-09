@@ -158,3 +158,11 @@ EditAction 1497004231236 TestPlanetExplorer.java 3172 17 46 16
 UnitTestCaseAction 1497004239403 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004239405 TestPlanetExplorer.java FAIL
 EditAction 1497004268955 PlanetExplorer.java 2927 5 9 0
+UnitTestCaseAction 1497004293715 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004293716 TestPlanetExplorer.java OK
+UnitTestCaseAction 1497004293734 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004293763 TestPlanetExplorer.java OK
+RefactoringAction 1497004311558 TestPlanetExplorer.java ADD void test_boundaries_forth_south()/2 METHOD
+RefactoringAction 1497004316075 TestPlanetExplorer.java RENAME test_boundaries_forth_south()/2=>void test_boundaries_back_south() METHOD
+RefactoringAction 1497004319093 TestPlanetExplorer.java RENAME test_boundaries_back_south()=>void test_boundaries_back_north() METHOD
+EditAction 1497004331555 TestPlanetExplorer.java 3344 18 48 17
