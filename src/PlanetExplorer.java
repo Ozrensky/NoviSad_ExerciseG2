@@ -42,6 +42,7 @@ public class PlanetExplorer {
 			switch(i){
 				case 'r': rotate(i); break; 
 				case 'l': rotate(i); break;
+				case 'f': moveForth(); break;
 			}
 		}
 		
@@ -71,6 +72,15 @@ public class PlanetExplorer {
 				else 
 					direction = "n";
 				break;
+		}
+	}
+	
+	public void moveForth(){
+		switch(direction){
+			case "n": roverY++; break;
+			case "e": roverX++; break;
+			case "s": roverY--; break;
+			case "w": roverX--; break;
 		}
 	}
 }
