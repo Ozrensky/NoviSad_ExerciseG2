@@ -75,7 +75,7 @@ public class PlanetExplorer {
 		
 		String prepreke = "";
 		//if (listaKoriscenihPrepreka != null){
-			for (int[] i : listaKoriscenihPrepreka){
+			for (int[] i : listaPrepreka){
 				prepreke += "(" + i[0] + "," + i[1] + ")";
 			}
 		//}
