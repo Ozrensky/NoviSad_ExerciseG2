@@ -215,3 +215,11 @@ RefactoringAction 1497005190306 PlanetExplorer.java ADD int String FIELD
 RefactoringAction 1497005201898 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x/2 FIELD
 EditAction 1497005630783 PlanetExplorer.java 4819 5 10 0
 EditAction 1497005794645 PlanetExplorer.java 5448 5 9 0
+CompilationAction 1497005801912 PlanetExplorer.java
+CompilationAction 1497005999584 PlanetExplorer.java
+UnitTestCaseAction 1497006000698 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006000699 TestPlanetExplorer.java FAIL
+RefactoringAction 1497006021004 PlanetExplorerException.java ADD String e FIELD
+RefactoringAction 1497006023013 PlanetExplorerException.java RENAME e=>String exception FIELD
+RefactoringAction 1497006024022 PlanetExplorerException.java RENAME exception=>String exception() METHOD
+EditAction 1497006077958 PlanetExplorerException.java 113 1 1 0

@@ -73,8 +73,14 @@ public class PlanetExplorer {
 			}
 		}
 		
+		String prepreke = "";
+		if (listaKoriscenihPrepreka != null){
+			for (int[] i : listaKoriscenihPrepreka){
+				prepreke += "(" + i[0] + "," + i[1] + ")";
+			}
+		}
 		
-		return "(" + roverX + "," + roverY + "," + direction + ")";
+		return "(" + roverX + "," + roverY + "," + direction + ")" + prepreke;
 	}
 	
 	public void rotate(char i){
@@ -197,10 +203,21 @@ public class PlanetExplorer {
 							return;
 						}
 					}
-				}
 					roverX = x - 1;
-				else
-					roverX--; break;
+				}
+				else {
+					for (int[] i : listaPrepreka){
+						if (i[0] == (roverX - 1) && i[1] == roverY){
+							if (i[2] != 1){
+								i[2] = 1;
+								listaKoriscenihPrepreka.add(i);
+							}
+							return;
+						}
+					}
+					roverX--;
+				}
+				break;
 		}
 	}
 	
