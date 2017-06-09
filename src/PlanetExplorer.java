@@ -41,7 +41,7 @@ public class PlanetExplorer {
 		for (char i : niz){
 			switch(i){
 				case 'r': rotate(i); break; 
-			
+				case 'l': rotate(i); break;
 			}
 		}
 		
@@ -60,6 +60,17 @@ public class PlanetExplorer {
 					direction = "w";
 				else 
 					direction = "n";
+				break;
+			case 'l':
+				if (direction.equals("n"))
+					direction = "w";
+				else if (direction.equals("w"))
+					direction = "s";
+				else if (direction.equals("s"))
+					direction = "e";
+				else 
+					direction = "n";
+				break;
 		}
 	}
 }
