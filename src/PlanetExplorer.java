@@ -26,7 +26,7 @@ public class PlanetExplorer {
 	
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -44,6 +44,7 @@ public class PlanetExplorer {
 				case 'l': rotate(i); break;
 				case 'f': moveForth(); break;
 				case 'b': moveBack(); break;
+				default: throw new PlanetExplorerException();
 			}
 		}
 		
