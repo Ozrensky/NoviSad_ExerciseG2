@@ -78,7 +78,12 @@ public class PlanetExplorer {
 	
 	public void moveForth(){
 		switch(direction){
-			case "n": roverY++; break;
+			case "n": 
+				if (roverY == y - 1)
+					roverY = 0;
+				else
+					roverY++; 
+				break;
 			case "e": roverX++; break;
 			case "s": roverY--; break;
 			case "w": roverX--; break;
