@@ -15,4 +15,11 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(0,0,e)", pe.executeCommand("r"));
 	}
+	
+	@Test
+	public void test_rotate_left(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		
+		assertEquals("Error", "(0,0,w)", pe.executeCommand("l"));
+	}
 }

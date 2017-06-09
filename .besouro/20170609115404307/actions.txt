@@ -21,3 +21,8 @@ EditAction 1497002573010 PlanetExplorer.java 1797 3 7 0
 RefactoringAction 1497002608860 PlanetExplorer.java ADD int roverX FIELD
 RefactoringAction 1497002616382 PlanetExplorer.java ADD int roverY FIELD
 EditAction 1497002648985 PlanetExplorer.java 1894 3 7 0
+UnitTestCaseAction 1497002659923 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002659934 TestPlanetExplorer.java OK
+RefactoringAction 1497002710737 TestPlanetExplorer.java ADD void test_rotate_right()/2 METHOD
+RefactoringAction 1497002720258 TestPlanetExplorer.java RENAME test_rotate_right()/2=>void test_rotate_left() METHOD
+EditAction 1497002731652 TestPlanetExplorer.java 501 3 4 2
