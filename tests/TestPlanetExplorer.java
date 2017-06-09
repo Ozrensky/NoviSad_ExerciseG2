@@ -118,4 +118,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(2,0,e)", pe.executeCommand("b"));
 	}
+	
+	@Test
+	public void test_boundaries_forth_west(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("l");
+		
+		assertEquals("Error", "(2,0,e)", pe.executeCommand("f"));
+	}
 }
