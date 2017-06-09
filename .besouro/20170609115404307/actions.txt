@@ -93,3 +93,6 @@ UnitTestSessionAction 1497003425915 TestPlanetExplorer.java OK
 RefactoringAction 1497003434155 TestPlanetExplorer.java ADD void test_forth_west()/2 METHOD
 RefactoringAction 1497003439669 TestPlanetExplorer.java RENAME test_forth_west()/2=>void test_back_west() METHOD
 EditAction 1497003460778 TestPlanetExplorer.java 2028 11 29 10
+UnitTestCaseAction 1497003475194 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003475195 TestPlanetExplorer.java FAIL
+EditAction 1497003488939 TestPlanetExplorer.java 2027 11 29 10
