@@ -74,11 +74,11 @@ public class PlanetExplorer {
 		}
 		
 		String prepreke = "";
-		if (listaKoriscenihPrepreka != null){
+		//if (listaKoriscenihPrepreka != null){
 			for (int[] i : listaKoriscenihPrepreka){
 				prepreke += "(" + i[0] + "," + i[1] + ")";
 			}
-		}
+		//}
 		
 		System.out.println(prepreke);
 		return "(" + roverX + "," + roverY + "," + direction + ")" + prepreke;

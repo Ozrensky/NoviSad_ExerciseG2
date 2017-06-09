@@ -224,3 +224,8 @@ RefactoringAction 1497006023013 PlanetExplorerException.java RENAME e=>String ex
 RefactoringAction 1497006024022 PlanetExplorerException.java RENAME exception=>String exception() METHOD
 EditAction 1497006077958 PlanetExplorerException.java 113 1 1 0
 EditAction 1497006085596 PlanetExplorer.java 5874 5 13 0
+UnitTestCaseAction 1497006102757 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006102759 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497006111936 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006111938 TestPlanetExplorer.java FAIL
+EditAction 1497006124657 PlanetExplorer.java 5878 5 13 0
