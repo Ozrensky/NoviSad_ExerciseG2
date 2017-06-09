@@ -161,13 +161,43 @@ public class PlanetExplorer {
 				}	
 				break;
 			case "s": 
-				if (roverY == 0)
+				if (roverY == 0){
+					for (int[] i : listaPrepreka){
+						if (i[0] == roverX && i[1] == (y - 1)){
+							if (i[2] != 1){
+								i[2] = 1;
+								listaKoriscenihPrepreka.add(i);
+							}
+							return;
+						}
+					}
 					roverY = y - 1;
-				else
+				}
+				else {
+					for (int[] i : listaPrepreka){
+						if (i[0] == x && i[1] == (roverY - 1)){
+							if (i[2] != 1){
+								i[2] = 1;
+								listaKoriscenihPrepreka.add(i);
+							}
+							return;
+						}
+					}
 					roverY--; 
+				}
 				break;
 			case "w": 
-				if (roverX == 0)
+				if (roverX == 0) {
+					for (int[] i : listaPrepreka){
+						if (i[0] == (x - 1) && i[1] == roverY){
+							if (i[2] != 1){
+								i[2] = 1;
+								listaKoriscenihPrepreka.add(i);
+							}
+							return;
+						}
+					}
+				}
 					roverX = x - 1;
 				else
 					roverX--; break;

@@ -214,3 +214,4 @@ RefactoringAction 1497005190305 PlanetExplorer.java ADD int y/2 FIELD
 RefactoringAction 1497005190306 PlanetExplorer.java ADD int String FIELD
 RefactoringAction 1497005201898 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x/2 FIELD
 EditAction 1497005630783 PlanetExplorer.java 4819 5 10 0
+EditAction 1497005794645 PlanetExplorer.java 5448 5 9 0
