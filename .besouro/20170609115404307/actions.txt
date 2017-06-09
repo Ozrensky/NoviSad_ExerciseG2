@@ -175,3 +175,8 @@ EditAction 1497004398200 TestPlanetExplorer.java 3373 18 49 17
 UnitTestCaseAction 1497004415389 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004415391 TestPlanetExplorer.java FAIL
 EditAction 1497004449666 PlanetExplorer.java 2980 5 9 0
+UnitTestCaseAction 1497004466726 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004466728 TestPlanetExplorer.java OK
+RefactoringAction 1497004476346 TestPlanetExplorer.java ADD void test_boundaries_back_south()/2 METHOD
+RefactoringAction 1497004480363 TestPlanetExplorer.java RENAME test_boundaries_back_south()/2=>void test_boundaries_back_west() METHOD
+EditAction 1497004500617 TestPlanetExplorer.java 3572 19 52 18

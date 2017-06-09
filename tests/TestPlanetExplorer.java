@@ -142,4 +142,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(0,0,s)", pe.executeCommand("b"));
 	}
+	
+	@Test
+	public void test_boundaries_back_west(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("lbb");
+		
+		assertEquals("Error", "(0,0,w)", pe.executeCommand("b"));
+	}
 }
