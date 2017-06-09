@@ -51,12 +51,11 @@ public class PlanetExplorer {
 				if (Character.isDigit(karakter)){
 					if (counter == 0){
 						preprekaX = Character.getNumericValue(karakter);
-						System.out.println(preprekaX);
-						counter++;
+						counter = 1;
 					} else if (counter == 1){
 						counter = 0;
 						preprekaY = Character.getNumericValue(karakter);
-						
+						System.out.println(karakter);
 						int[] prepreka = {preprekaX, preprekaY, koriscena};
 						listaPrepreka.add(prepreka);
 					}
