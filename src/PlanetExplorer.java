@@ -73,7 +73,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		String prepreke = "";
+		String prepreke = "yeah";
 		//if (listaKoriscenihPrepreka != null){
 			for (int[] i : listaPrepreka){
 				prepreke += "(" + i[0] + "," + i[1] + ")";
