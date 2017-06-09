@@ -136,9 +136,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_back_north(){
+	public void test_boundaries_back_south(){
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("ffrr")
 		
-		assertEquals("Error", "(0,2,n)", pe.executeCommand("b"));
+		assertEquals("Error", "(0,0,s)", pe.executeCommand("b"));
 	}
 }
