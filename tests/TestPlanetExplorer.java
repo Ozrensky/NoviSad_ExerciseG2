@@ -22,4 +22,11 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(0,0,w)", pe.executeCommand("l"));
 	}
+	
+	@Test
+	public void test_forth_north(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		
+		assertEquals("Error", "(0,1,n)", pe.executeCommand("f"));
+	}
 }

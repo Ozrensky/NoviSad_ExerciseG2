@@ -29,3 +29,11 @@ EditAction 1497002731652 TestPlanetExplorer.java 501 3 4 2
 UnitTestCaseAction 1497002740884 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497002740886 TestPlanetExplorer.java FAIL
 EditAction 1497002814734 PlanetExplorer.java 2158 3 7 0
+UnitTestCaseAction 1497002826221 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002826223 TestPlanetExplorer.java OK
+RefactoringAction 1497002840431 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497002842452 TestPlanetExplorer.java RENAME test=>void test_for FIELD
+RefactoringAction 1497002843987 TestPlanetExplorer.java RENAME test_for=>void test_forth FIELD
+RefactoringAction 1497002844999 TestPlanetExplorer.java RENAME test_forth=>void test_forth_ FIELD
+RefactoringAction 1497002848514 TestPlanetExplorer.java RENAME test_forth_=>void test_forth_north() METHOD
+EditAction 1497002869195 TestPlanetExplorer.java 663 4 6 3
