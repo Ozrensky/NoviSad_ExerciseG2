@@ -90,7 +90,12 @@ public class PlanetExplorer {
 				else
 					roverX++; 
 				break;
-			case "s": roverY--; break;
+			case "s": 
+				if (roverY == 0)
+					roverY = y - 1;
+				else
+					roverY--; 
+				break;
 			case "w": 
 				if (roverX == 0)
 					roverX = x - 1;
