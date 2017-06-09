@@ -10,28 +10,28 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_rotate_right(){
+	public void test_rotate_right() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		
 		assertEquals("Error", "(0,0,e)", pe.executeCommand("r"));
 	}
 	
 	@Test
-	public void test_rotate_left(){
+	public void test_rotate_left() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		
 		assertEquals("Error", "(0,0,w)", pe.executeCommand("l"));
 	}
 	
 	@Test
-	public void test_forth_north(){
+	public void test_forth_north() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		
 		assertEquals("Error", "(0,1,n)", pe.executeCommand("f"));
 	}
 	
 	@Test
-	public void test_back_north(){
+	public void test_back_north() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("f");
 		
@@ -39,7 +39,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_forth_east(){
+	public void test_forth_east() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("r");
 		
@@ -47,7 +47,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_back_east(){
+	public void test_back_east() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("r");
 		pe.executeCommand("f");
@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_forth_south(){
+	public void test_forth_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("f");
 		pe.executeCommand("rr");
@@ -65,7 +65,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_back_south(){
+	public void test_back_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("rr");
 		
@@ -73,7 +73,7 @@ public class TestPlanetExplorer {
 	}
 
 	@Test
-	public void test_forth_west(){
+	public void test_forth_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("rfll");
 		
@@ -81,7 +81,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_back_west(){
+	public void test_back_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("l");
 		
@@ -89,7 +89,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_north(){
+	public void test_boundaries_north() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("ff");
 		
@@ -97,14 +97,14 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_south(){
+	public void test_boundaries_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		
 		assertEquals("Error", "(0,2,n)", pe.executeCommand("b"));
 	}
 	
 	@Test
-	public void test_boundaries_east(){
+	public void test_boundaries_east() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("rff");
 		
@@ -112,7 +112,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_west(){
+	public void test_boundaries_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("r");
 		
@@ -120,7 +120,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_forth_west(){
+	public void test_boundaries_forth_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("l");
 		
@@ -128,7 +128,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_forth_south(){
+	public void test_boundaries_forth_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("rr");
 		
@@ -136,7 +136,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_back_south(){
+	public void test_boundaries_back_south() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("ffrr");
 		
@@ -144,7 +144,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_boundaries_back_west(){
+	public void test_boundaries_back_west() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("lbb");
 		
@@ -153,8 +153,15 @@ public class TestPlanetExplorer {
 	
 	@Test
 	(expected = PlanetExplorerException.class)
-	public void testException(){
+	public void testException() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("z");
+	}
+	
+	@Test
+	public void test_obstacles() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(0,1)");
+		
+		assertEquals("Error", "(0,0,n)(0,1)", pe.executeCommand("f"));
 	}
 }
