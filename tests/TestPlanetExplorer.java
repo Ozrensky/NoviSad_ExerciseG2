@@ -46,5 +46,14 @@ public class TestPlanetExplorer {
 		assertEquals("Error", "(1,0,e)", pe.executeCommand("f"));
 	}
 	
+	@Test
+	public void test_back_east(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("r");
+		pe.executeCommand("f")
+		
+		assertEquals("Error", "(0,0,e)", pe.executeCommand("b"));
+	}
+	
 
 }
