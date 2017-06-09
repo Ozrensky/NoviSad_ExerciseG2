@@ -116,6 +116,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
 		pe.executeCommand("r");
 		
-		assertEquals("Error", "(3,0,e)", pe.executeCommand("b"));
+		assertEquals("Error", "(2,0,e)", pe.executeCommand("b"));
 	}
 }
