@@ -8,6 +8,8 @@ public class PlanetExplorer {
 	private int y = 0;
 	private String obstacles;
 	private String direction = "n";
+	private int roverX = 0;
+	private int roverY = 0;
 
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -44,7 +46,7 @@ public class PlanetExplorer {
 		}
 		
 		
-		return null;
+		return "(" + roverX + "," + roverY + "," + direction + ")";
 	}
 	
 	public void rotate(char i){

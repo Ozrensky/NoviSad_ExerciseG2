@@ -18,3 +18,6 @@ EditAction 1497002333510 PlanetExplorer.java 1408 2 4 0
 RefactoringAction 1497002430846 PlanetExplorer.java ADD void rotate() METHOD
 RefactoringAction 1497002441425 PlanetExplorer.java RENAME rotate()=>void rotate(char) METHOD
 EditAction 1497002573010 PlanetExplorer.java 1797 3 7 0
+RefactoringAction 1497002608860 PlanetExplorer.java ADD int roverX FIELD
+RefactoringAction 1497002616382 PlanetExplorer.java ADD int roverY FIELD
+EditAction 1497002648985 PlanetExplorer.java 1894 3 7 0
