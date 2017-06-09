@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	private int x = 0;
 	private int y = 0;
 	private String obstacles;
-	private String direction;
+	private String direction = "n";
 
 	
 	public PlanetExplorer(int x, int y, String obstacles){

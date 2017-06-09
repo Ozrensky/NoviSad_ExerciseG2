@@ -13,3 +13,4 @@ RefactoringAction 1497002254503 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1497002262537 PlanetExplorer.java ADD String obstacles FIELD
 RefactoringAction 1497002271561 PlanetExplorer.java ADD String direction FIELD
 EditAction 1497002284797 PlanetExplorer.java 1347 2 1 0
+EditAction 1497002302007 PlanetExplorer.java 1353 2 1 0
