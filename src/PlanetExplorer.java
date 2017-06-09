@@ -80,6 +80,7 @@ public class PlanetExplorer {
 			}
 		}
 		
+		System.out.println(prepreke);
 		return "(" + roverX + "," + roverY + "," + direction + ")" + prepreke;
 	}
 	
