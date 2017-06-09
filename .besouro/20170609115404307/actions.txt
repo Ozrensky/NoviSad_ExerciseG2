@@ -172,3 +172,6 @@ RefactoringAction 1497004353654 TestPlanetExplorer.java RENAME test_boundaries_b
 EditAction 1497004382050 TestPlanetExplorer.java 3372 18 46 16
 CompilationAction 1497004389580 TestPlanetExplorer.java
 EditAction 1497004398200 TestPlanetExplorer.java 3373 18 49 17
+UnitTestCaseAction 1497004415389 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004415391 TestPlanetExplorer.java FAIL
+EditAction 1497004449666 PlanetExplorer.java 2980 5 9 0

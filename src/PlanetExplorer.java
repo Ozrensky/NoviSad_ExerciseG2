@@ -118,7 +118,11 @@ public class PlanetExplorer {
 			else
 				roverX--; 
 			break;
-		case "s": roverY++; break;
+		case "s": 
+			if (roverY == y - 1)
+				roverY = 0;
+			else
+				roverY++; break;
 		case "w": roverX++; break;
 	}
 }
