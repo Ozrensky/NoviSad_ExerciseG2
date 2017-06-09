@@ -13,3 +13,7 @@
 1497003201996 test-addition 1 57 true
 1497003254409 test-addition 1 40 true
 1497003254410 test-addition 1 40 true
+1497003323531 test-addition 2 60 true
+1497003323532 test-addition 1 60 true
+1497003323533 test-addition 2 60 true
+1497003323534 test-addition 1 60 true
