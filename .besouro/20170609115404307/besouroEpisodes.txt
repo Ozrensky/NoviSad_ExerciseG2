@@ -17,3 +17,5 @@
 1497003323532 test-addition 1 60 true
 1497003323533 test-addition 2 60 true
 1497003323534 test-addition 1 60 true
+1497003353933 test-addition 1 24 true
+1497003353934 test-addition 1 24 true
