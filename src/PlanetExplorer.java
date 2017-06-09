@@ -35,7 +35,29 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		char[] niz = command.toCharArray();
+		for (char i : niz){
+			switch(i){
+				case 'r': rotate(i); break; 
+			
+			}
+		}
+		
 		
 		return null;
+	}
+	
+	public void rotate(char i){
+		switch(i){
+			case 'r': 
+				if (direction.equals("n"))
+					direction = "e";
+				else if (direction.equals("e"))
+					direction = "s";
+				else if (direction.equals("s"))
+					direction = "w";
+				else 
+					direction = "n";
+		}
 	}
 }
