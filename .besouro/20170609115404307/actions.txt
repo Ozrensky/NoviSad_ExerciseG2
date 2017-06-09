@@ -88,3 +88,8 @@ UnitTestSessionAction 1497003353933 TestPlanetExplorer.java OK
 RefactoringAction 1497003363497 TestPlanetExplorer.java ADD void test_forth_south()/2 METHOD
 RefactoringAction 1497003367508 TestPlanetExplorer.java RENAME test_forth_south()/2=>void test_forth_west() METHOD
 EditAction 1497003412100 TestPlanetExplorer.java 1841 10 26 9
+UnitTestCaseAction 1497003425914 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003425915 TestPlanetExplorer.java OK
+RefactoringAction 1497003434155 TestPlanetExplorer.java ADD void test_forth_west()/2 METHOD
+RefactoringAction 1497003439669 TestPlanetExplorer.java RENAME test_forth_west()/2=>void test_back_west() METHOD
+EditAction 1497003460778 TestPlanetExplorer.java 2028 11 29 10

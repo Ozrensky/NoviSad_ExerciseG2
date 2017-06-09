@@ -79,4 +79,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(0,0,w)", pe.executeCommand("f"));
 	}
+	
+	@Test
+	public void test_back_west(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("ll");
+		
+		assertEquals("Error", "(1,0,w)", pe.executeCommand("b"));
+	}
 }
