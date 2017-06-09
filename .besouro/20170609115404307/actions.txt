@@ -61,3 +61,5 @@ RefactoringAction 1497003148967 TestPlanetExplorer.java RENAME test_forth_north(
 RefactoringAction 1497003152482 TestPlanetExplorer.java RENAME test_back_north()/2=>void test_back_e() METHOD
 RefactoringAction 1497003153490 TestPlanetExplorer.java RENAME test_back_e()=>void test_back_east() METHOD
 EditAction 1497003178229 TestPlanetExplorer.java 1223 7 15 6
+RefactoringAction 1497003189103 TestPlanetExplorer.java REMOVE test_back_east() METHOD
+EditAction 1497003189843 TestPlanetExplorer.java 1040 6 12 5
