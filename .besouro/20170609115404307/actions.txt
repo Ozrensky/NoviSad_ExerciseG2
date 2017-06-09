@@ -43,3 +43,8 @@ RefactoringAction 1497002918227 PlanetExplorer.java ADD void o FIELD
 RefactoringAction 1497002919238 PlanetExplorer.java RENAME o=>void move FIELD
 RefactoringAction 1497002922756 PlanetExplorer.java RENAME move=>void moveForth() METHOD
 EditAction 1497003024983 PlanetExplorer.java 2368 4 8 0
+UnitTestCaseAction 1497003038185 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003038186 TestPlanetExplorer.java OK
+RefactoringAction 1497003044260 TestPlanetExplorer.java ADD void test_forth_north()/2 METHOD
+RefactoringAction 1497003048777 TestPlanetExplorer.java RENAME test_forth_north()/2=>void test_back_north() METHOD
+EditAction 1497003063914 TestPlanetExplorer.java 850 5 9 4
