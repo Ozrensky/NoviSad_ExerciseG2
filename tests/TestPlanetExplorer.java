@@ -87,4 +87,13 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Error", "(1,0,w)", pe.executeCommand("b"));
 	}
+	
+	@Test
+	public void test_boundaris_north(){
+		PlanetExplorer pe = new PlanetExplorer(3, 3, null);
+		pe.executeCommand("ff");
+		
+		assertEquals("Error", "(0,0,n)", pe.executeCommand("f"));
+	}
+	
 }

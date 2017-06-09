@@ -96,3 +96,12 @@ EditAction 1497003460778 TestPlanetExplorer.java 2028 11 29 10
 UnitTestCaseAction 1497003475194 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497003475195 TestPlanetExplorer.java FAIL
 EditAction 1497003488939 TestPlanetExplorer.java 2027 11 29 10
+UnitTestCaseAction 1497003497270 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003497271 TestPlanetExplorer.java OK
+RefactoringAction 1497003519841 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497003520852 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497003523870 TestPlanetExplorer.java RENAME test_=>void test_boundarier FIELD
+RefactoringAction 1497003527887 TestPlanetExplorer.java RENAME test_boundarier=>void test_boundaris FIELD
+RefactoringAction 1497003530915 TestPlanetExplorer.java RENAME test_boundaris=>void test_boundaris_ FIELD
+RefactoringAction 1497003533929 TestPlanetExplorer.java RENAME test_boundaris_=>void test_boundaris_north() METHOD
+EditAction 1497003590037 TestPlanetExplorer.java 2222 12 32 11

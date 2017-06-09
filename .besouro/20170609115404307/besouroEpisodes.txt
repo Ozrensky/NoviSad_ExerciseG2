@@ -21,3 +21,7 @@
 1497003353934 test-addition 1 24 true
 1497003425915 test-addition 1 62 true
 1497003425916 test-addition 1 62 true
+1497003497271 test-addition 2 63 true
+1497003497272 test-addition 1 63 true
+1497003497273 test-addition 2 63 true
+1497003497274 test-addition 1 63 true
