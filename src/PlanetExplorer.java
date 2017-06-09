@@ -43,6 +43,7 @@ public class PlanetExplorer {
 				case 'r': rotate(i); break; 
 				case 'l': rotate(i); break;
 				case 'f': moveForth(); break;
+				case 'b': moveBack(); break;
 			}
 		}
 		
@@ -83,4 +84,13 @@ public class PlanetExplorer {
 			case "w": roverX--; break;
 		}
 	}
+	
+	public void moveBack(){
+		switch(direction){
+		case "n": roverY--; break;
+		case "e": roverX--; break;
+		case "s": roverY++; break;
+		case "w": roverX++; break;
+	}
+}
 }
