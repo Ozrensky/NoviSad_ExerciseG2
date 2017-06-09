@@ -135,3 +135,6 @@ RefactoringAction 1497003977083 TestPlanetExplorer.java ADD void test_boundaries
 RefactoringAction 1497003980100 TestPlanetExplorer.java RENAME test_boundaries_east()/2=>void test_boundaries_e() METHOD
 RefactoringAction 1497003981614 TestPlanetExplorer.java RENAME test_boundaries_e()=>void test_boundaries_west() METHOD
 EditAction 1497003991066 TestPlanetExplorer.java 2774 15 40 14
+UnitTestCaseAction 1497004006291 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004006293 TestPlanetExplorer.java FAIL
+EditAction 1497004052555 PlanetExplorer.java 2808 5 9 0
