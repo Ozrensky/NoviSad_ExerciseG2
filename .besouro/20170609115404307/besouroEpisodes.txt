@@ -11,3 +11,5 @@
 1497003201994 test-addition 1 57 true
 1497003201995 test-addition 1 57 true
 1497003201996 test-addition 1 57 true
+1497003254409 test-addition 1 40 true
+1497003254410 test-addition 1 40 true
