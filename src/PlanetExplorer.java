@@ -48,6 +48,7 @@ public class PlanetExplorer {
 			int koriscena = 0;
 			for (int i = 0; i < nizPrepreka.length; i++){
 				char karakter = nizPrepreka[i];
+				System.out.println(karakter);
 				if (Character.isDigit(karakter)){
 					if (counter == 0){
 						preprekaX = Character.getNumericValue(karakter);
@@ -55,7 +56,7 @@ public class PlanetExplorer {
 					} else if (counter == 1){
 						counter = 0;
 						preprekaY = Character.getNumericValue(karakter);
-						System.out.println(preprekaX);
+						
 						int[] prepreka = {preprekaX, preprekaY, koriscena};
 						listaPrepreka.add(prepreka);
 					}
