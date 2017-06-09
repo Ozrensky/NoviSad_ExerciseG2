@@ -55,6 +55,7 @@ public class PlanetExplorer {
 					} else if (counter == 1){
 						counter = 0;
 						preprekaY = Character.getNumericValue(karakter);
+						System.out.println(preprekaX + preprekaY + koriscena);
 						int[] prepreka = {preprekaX, preprekaY, koriscena};
 						listaPrepreka.add(prepreka);
 					}
@@ -80,7 +81,6 @@ public class PlanetExplorer {
 			}
 		//}
 		
-		System.out.println(prepreke);
 		return "(" + roverX + "," + roverY + "," + direction + ")" + prepreke;
 	}
 	
