@@ -51,7 +51,7 @@ public class PlanetExplorer {
 				if (Character.isDigit(karakter)){
 					if (counter == 0){
 						preprekaX = Character.getNumericValue(karakter);
-						System.out.println(karakter);
+						System.out.println(preprekaX);
 						counter++;
 					} else if (counter == 1){
 						counter = 0;
