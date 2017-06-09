@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 13:00
+// Student ID: IT37-2015
 
 public class PlanetExplorer {
 	private int x = 0;
@@ -73,7 +73,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		String prepreke = "k";
+		String prepreke = "";
 		//if (listaKoriscenihPrepreka != null){
 			for (int[] i : listaPrepreka){
 				prepreke += "(" + i[0] + "," + i[1] + ")";
